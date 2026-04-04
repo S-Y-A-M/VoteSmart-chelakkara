@@ -386,7 +386,7 @@ export function RoadmapContainer({ data }: RoadmapContainerProps) {
         </main>
       </div>
 
-      <footer className="mt-8 text-center text-xs text-slate-500">
+      <footer className="fixed bottom-0 left-0 right-0 text-center text-xs text-slate-500 bg-white/95 backdrop-blur-md py-2">
         © 2026 Syampk
       </footer>
 
