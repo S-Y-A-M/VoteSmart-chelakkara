@@ -386,6 +386,10 @@ export function RoadmapContainer({ data }: RoadmapContainerProps) {
         </main>
       </div>
 
+      <footer className="mt-8 text-center text-xs text-slate-500">
+        © 2026 Syampk
+      </footer>
+
       {/* Mobile bottom step controls */}
       <div className="fixed bottom-0 left-0 right-0 z-30 border-t border-slate-200 bg-white/95 p-3 backdrop-blur-md sm:hidden">
         <div className="mx-auto flex max-w-lg items-center justify-between gap-2">
