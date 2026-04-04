@@ -168,7 +168,7 @@ export function ElectionHistoryRoadmap({ data, compact = false }: Props) {
             <div className="flex items-center justify-between gap-6 overflow-x-auto py-2 px-2 sm:px-4">
               {electionYears.map((year) => {
                 const item = filteredHistory.find((h) => h.year === year);
-                const hasData = Boolean(item);
+                // const hasData = Boolean(item);
                 let bgClass = "bg-gray-500";
                 if (item) {
                   if (item.party === "Indian National Congress") bgClass = "bg-blue-600";
