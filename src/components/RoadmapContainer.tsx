@@ -3,7 +3,7 @@ import { useCallback, useState } from "react";
 import type { ElectionData } from "../types";
 import { CandidateNode } from "./CandidateNode";
 import { CountdownTimer } from "./CountdownTimer";
-import { RecentElectionsChart, WorkTimeline, ConstituencyDevelopments, WinningChancePieChart } from "./Timeline";
+import { RecentElectionsChart, ConstituencyDevelopments, WinningChancePieChart } from "./Timeline";
 import { ElectionHistoryRoadmap } from "./ElectionHistoryRoadmap";
 
 const STEP_KEYS = [
@@ -35,7 +35,7 @@ export function RoadmapContainer({ data }: RoadmapContainerProps) {
   const [isRunning, setIsRunning] = useState(true);
 
   const maxStep = STEP_KEYS.length - 1;
-  const decisionStep = STEP_KEYS.indexOf("overall");
+  // const decisionStep = STEP_KEYS.indexOf("overall");
   const goNext = useCallback(() => setStep((s) => Math.min(s + 1, maxStep)), [maxStep]);
   const goPrev = useCallback(() => setStep((s) => Math.max(s - 1, 0)), []);
   const goTo = useCallback((i: number) => setStep(Math.max(0, Math.min(i, maxStep))), [maxStep]);
