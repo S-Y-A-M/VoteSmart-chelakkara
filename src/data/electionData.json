@@ -1,0 +1,284 @@
+{
+  "constituency": {
+    "id": "chelakkara",
+    "name": "Chelakkara",
+    "district": "Thrissur",
+    "ASSEMBLY NO" : 61,
+    "Poliing Booths": 218,
+    "Voters":"1,40,000+",
+    "geographical area": "370 sqkm",
+    "local_bodies": [
+      {
+        "name": "Chelakkara",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Kondazhy",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Desamangalam",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Pazhayannur",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Mullurkara",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Varavoor",
+        "type": "Grama Panchayat"
+      },
+      {
+        "name": "Thiruvilwamala",
+        "type": "Partial Grama Panchayat"
+      }
+    ],
+
+    
+  "issues": [
+    {
+      "issue": "Frequent flooding and waterlogging during heavy monsoon rains",
+      "source": "Times of India (2025 Kerala rain report)"
+    },
+
+    {
+      "issue": "Land acquisition conflicts due to Chelakkara bypass project",
+      "source": "Thrissur District Administration – Social Impact Assessment Report (2025)"
+    },
+
+    {
+      "issue": "High disaster vulnerability (flood in monsoon, water scarcity in summer)",
+      "source": "District Disaster Management Plan – Thrissur"
+    },
+
+    {
+      "issue": "Poor drainage and infrastructure resilience issues",
+      "source": "Times of India flood coverage"
+    }
+  ]
+},
+   
+  
+"election_date": "2026-04-09",
+
+  "candidates": [
+    {
+      "id": "c1",
+      "name": "U.R Pradeep" ,
+      "age":52,
+      "image": "/media/ldf.jpg",
+      "party": "Left Democratic Front (LDF)",
+      "education": "B.B.A. graduate, University of Madras Chennai",
+      "address": "Thekkepurakkal House, Santha Nivas Pallur P O,Thrissur - 679532",
+      "achievements": [
+        "Led local panchayat initiatives on sanitation and street lighting",
+        "Advocated for fair MSP discussions with farmer cooperatives"
+      ],
+      
+      "public_perception_score": 72
+    },
+
+
+    {
+      "id": "c2",
+      "name": "Sivadasan (Sivan Veettikunnu) backed by UDF",
+      "age": 47,
+      "image": "/media/udf.jpg",
+      "party": "Independent",
+      "address": "Veettikunnu Colony,Kondazhy P O,Thrissur-679106" ,   
+    
+      "public_perception_score": 68
+    },
+
+
+    {
+      "id": "c3",
+      "name": "K Balakrishnan",
+      "age":50,
+      "image": "/media/bjp.jpg",
+      "party": "Bharatiya Janata Party (BJP)",
+      "address": "Koodaramkunnu House,Kaniyarkode P.O,Thiruvillwamala,Thrissur-680594",
+     
+     
+      "public_perception_score": 55
+    },
+
+
+    {
+      "id": "c4",
+      "name": "Subramanian kv",
+      "age": 61,
+      "image": "/media/AAP.jpg",
+      "party": "Aam Aadmi Party(AAP)",
+      "address": "Kannoth House,Wadakkanchery P O-680582" ,    
+      
+      "public_perception_score": 68
+    },
+
+
+    {
+      "id": "c5",
+      "name": "Vinod kumar",
+      "age": 45,
+      "image": "/media/sdpi.jpg",
+      "party": "Social Democratic Party Of India(SDPI)",
+      "address": "Puthuruvalappil House,Desamangalam,Thalappilly,Thrissur 679532" ,    
+      
+      "public_perception_score": 68
+    }
+  ],
+
+
+  "electionHistory": [
+    { "year": 1967, "winner": "P. Kunhan", "party": "Indian National Congress" },
+    { "year": 1970, "winner": "K. K. Balakrishnan", "party": "Indian National Congress" },
+    { "year": 1977, "winner": "K. K. Balakrishnan", "party": "Indian National Congress" },
+    { "year": 1980, "winner": "K. K. Balakrishnan", "party": "Indian National Congress" },
+    { "year": 1982, "winner": "C. K. Chakrapani", "party": "Communist Party of India" },
+    { "year": 1987, "winner": "M. A. Kuttappan", "party": "Indian National Congress" },
+    { "year": 1991, "winner": "M. P. Thami", "party": "Indian National Congress" },
+    { "year": 1996, "winner": "K. Radhakrishnan", "party": "Communist Party of India" },
+    { "year": 2001, "winner": "K. Radhakrishnan", "party": "Communist Party of India" },
+    { "year": 2006, "winner": "K. Radhakrishnan", "party": "Communist Party of India" },
+    { "year": 2011, "winner": "K. Radhakrishnan", "party": "Communist Party of India" },
+    { "year": 2016, "winner": "U. R. Pradeep", "party": "Communist Party of India" },
+    { "year": 2021, "winner": "K. Radhakrishnan", "party": "Communist Party of India" },
+    { "year": 2024, "winner": "U. R. Pradeep", "party": "Communist Party of India" }
+  ],
+
+  "recent_elections": [
+     {
+      "year": 2024,
+      "type": "by-election",
+      "winner": {
+        "name": "U. R. Pradeep",
+        "party": "CPI(M)",
+        "votes": 64827,
+        "vote_percentage": 41.44
+      },
+      "runner_up": {
+        "name": "Ramya Haridas",
+        "party": "INC",
+        "votes": 52626,
+        "vote_percentage": 33.64
+      },
+      "margin_votes": 12201,
+      "margin_percentage": 7.80
+    },
+
+
+    {
+      "year": 2021,
+      "type": "general",
+      "winner": {
+        "name": "K. Radhakrishnan",
+        "party": "CPI(M)",
+        "votes": 83415,
+        "vote_percentage": 54.41
+      },
+      "runner_up": {
+        "name": "C. C. Sreekumar",
+        "party": "INC",
+        "votes": 44015,
+        "vote_percentage": 28.71
+      },
+      "margin_votes": 39400,
+      "margin_percentage": 25.70
+    },
+
+
+    {
+      "year": 2016,
+      "type": "general",
+      "winner": {
+        "name": "U. R. Pradeep",
+        "party": "CPI(M)",
+        "votes": 67771,
+        "vote_percentage": 44.81
+      },
+      "runner_up": {
+        "name": "Thulasi",
+        "party": "INC",
+        "votes": 57571,
+        "vote_percentage": 38.07
+      },
+      "margin_votes": 10200,
+      "margin_percentage": 6.74
+    },
+
+
+    {
+      "year": 2011,
+      "type": "general",
+      "winner": {
+        "name": "K. Radhakrishnan",
+        "party": "CPI(M)",
+        "votes": 73683,
+        "vote_percentage": 55.42
+      },
+      "runner_up": {
+        "name": "K. B. Sasikumar",
+        "party": "INC",
+        "votes": 49007,
+        "vote_percentage": 36.86
+      },
+      "margin_votes": 24676,
+      "margin_percentage": 18.56
+    }
+  ],
+
+  "constituency_overview": {
+  "period": "2014-2024",
+  "overview": "Over the past decade, Chelakkara has seen infrastructure and social development driven by LDF policies, focusing on rural development, education, and connectivity.",
+  "representatives": [
+    {
+      "name": "K. Radhakrishnan",
+      "tenure": "2021-2024"
+    },
+    {
+      "name": "U. R. Pradeep",
+      "tenure": "2016-2021"
+    },
+    {
+      "name": "K. Radhakrishnan",
+      "tenure": "2011-2016"
+    }
+  ],
+  "key_developments": [
+    {
+      "category": "Infrastructure & Roads",
+      "title": "Rural Connectivity Improvement",
+      "description": "Construction and upgrading of panchayat and PWD roads connecting interior villages to Chelakkara town."
+    },
+    {
+      "category": "Education",
+      "title": "School Infrastructure Upgrade",
+      "description": "Improvement of government school facilities under the Public Education Rejuvenation Mission."
+    },
+    {
+      "category": "Healthcare",
+      "title": "Strengthening Health Services",
+      "description": "Upgradation of primary and community health centers to improve accessibility and quality of care."
+    },
+    {
+      "category": "SC/ST Development",
+      "title": "Targeted Welfare Programs",
+      "description": "Focused development initiatives for Scheduled Caste and Scheduled Tribe communities including housing and education support."
+    }
+  ],
+  "political_insights": {
+    "dominant_alliance": "LDF",
+    "trend": "Stronghold",
+    "details": [
+      "K. Radhakrishnan won the 2021 election with a majority of over 39,000 votes",
+      "U. R. Pradeep won in 2016 and returned in the 2024 by-election",
+      "Consistent voter support for LDF over the past decade"
+    ]
+  }
+}
+}
+

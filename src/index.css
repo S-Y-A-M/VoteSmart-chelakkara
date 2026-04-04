@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased text-journey-ink bg-journey-surface min-h-screen;
+  background-image: radial-gradient(
+      ellipse 120% 80% at 50% -20%,
+      rgb(204 251 241 / 0.5),
+      transparent
+    ),
+    linear-gradient(to bottom, rgb(248 250 252), rgb(241 245 249));
+}
